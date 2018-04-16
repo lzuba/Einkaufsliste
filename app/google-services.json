@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "555433396586",
+    "firebase_url": "https://einkaufsliste-9c6e8.firebaseio.com",
+    "project_id": "einkaufsliste-9c6e8",
+    "storage_bucket": "einkaufsliste-9c6e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555433396586:android:de08bbba34169e7b",
+        "android_client_info": {
+          "package_name": "lzuba.einkaufsliste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555433396586-aj3abgj0rk3rojtrgipio1nq968m0krq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcH3_7wFfTzd6Fksnf3pWVin-7mEkrX84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
