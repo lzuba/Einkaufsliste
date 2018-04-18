@@ -1,3 +1,4 @@
+Zuba Lukas 5BHIT SYT
 # Einkaufsliste
 Einkaufsliste Prototyp als Andriod App entwickelt mit Java 
 
@@ -23,7 +24,9 @@ Für die Implementierung der App habe ich mich für die Lösung [Firebase Realti
 Die Synchronisierung der Daten wird mittels Realtime Database von Firebase abgewickelt. 
 Realtime Database bietet eine Online-Datenbank an mit limitieren Zugriffen und Speicherplatz dafür aber kostenlos und kann Änderungen in Realtime verarbeiten. Daher kann Realtime Database die Synchronisation zwischen Geräte eigenständig übernehmen. Welche Methode zur Synchronisation der Datenbanken verwendet wird, ist nicht beschrieben auf einer offiziellen Webseite.  
 Im Hinsicht auf die Replikation der Daten im Besonderen auf die Sicherung dieser gibt es von Realtime Database einen Möglichkeit Backups der Datenbank anzulegen. Diese Option ist aber mit Kosten verbunden und habe ich daher nicht ausprobiert oder umgesetzt. Es kann eine weitere Instanz der Datenbank manuell gestartet werden, allerdings ist dies auch wieder mit Kosten verbunden.  
-Das gewählte Design ist eine Client-Server Architektur mit Firebase/Realtime Database als Serverkomponente. Die Clients sind die Benutzer mit der geschriebenen Android App.  
+Das gewählte Design ist eine Client-Server Architektur mit Firebase/Realtime Database als Serverkomponente.
+![Beispiel Client-Server](http://collagenrestores.com/wp-content/uploads/2018/02/diagrams-definition-of-a-diagram-client-server-model.png)
+Die Clients sind die Benutzer mit der geschriebenen Android App.  
 ## Firebase Dokumentation (Schnittstelle)
 Die Datenbank für die App ist wie folgt strukturiert:  
 ![Imgur](https://i.imgur.com/N38mRae.png)  
