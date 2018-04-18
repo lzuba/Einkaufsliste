@@ -34,7 +34,7 @@ this.database = FirebaseDatabase.getInstance().getReference("lists"); ```
 Dann wird ein Listener für die Datenbank geschrieben um Daten auszulesen, einzufügen, bearbeiten und zu löschen. ``` this.database.child("list1").addChildEventListener ```. In diesem Listener gibt es dann eigene Methoden bei einem Added-, Changed-, Removed-Event. Beim Starten der App verwenden die Daten abgerufen, in dem die Daten über das Added-Event abgerufen werden.
 
 Quellen:  
-http://forum.tvac.in/ bzw. Videos  
+http://forum.tvac.in/ bzw. Videos (https://www.youtube.com/watch?v=6Iy7crsnVhA&list=PLGCjwl1RrtcSi2oV5caEVScjkM6r3HO9t)
 https://firebase.google.com/docs/database/android/start/?authuser=0  
 
 
